@@ -2,7 +2,7 @@
 
 A transition-based dependency parser with neural networks and hybrid oracle in C#. 
 
-Implementation of the paper "Hybrid Oracle: Making Use of Ambiguity in Transition-based Chinese Dependency Parsing" by Xuancheng Ren and Xu Sun.
+Implementation of the paper "Hybrid Oracle: Making Use of Ambiguity in Transition-based Chinese Dependency Parsing" [[pdf]](https://arxiv.org/pdf/1711.10163) by Xuancheng Ren and Xu Sun. 
 
 # Usage
 
