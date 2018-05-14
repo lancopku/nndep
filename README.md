@@ -2,7 +2,7 @@
 
 A transition-based dependency parser with neural networks and hybrid oracle in C#. 
 
-Implementation of the paper "Hybrid Oracle: Making Use of Ambiguity in Transition-based Chinese Dependency Parsing" [[pdf]](https://arxiv.org/pdf/1711.10163) by Xuancheng Ren and Xu Sun. 
+Implementation of the paper _Hybrid Oracle: Making Use of Ambiguity in Transition-based Chinese Dependency Parsing_ [[pdf]](https://arxiv.org/pdf/1711.10163) by Xuancheng Ren and Xu Sun. 
 
 # Usage
 
@@ -42,3 +42,21 @@ The program supports three run modes, *train, dev, and test*. Change the _Mode_ 
 
 
 There is also a seperate python script in [util](./util/) for getting the related statistics of the datasets, and parsing results. The file is not annotated, but I think the code is rather straight-forward.
+
+# Citation
+
+If you base your research on this paper, please cite [_Hybrid Oracle: Making Use of Ambiguity in Transition-based Chinese Dependency Parsing_](https://arxiv.org/pdf/1711.10163) as
+```
+@article{ren2017hybrid,
+  author    = {Xuancheng Ren and
+               Xu Sun},
+  title     = {Hybrid Oracle: Making Use of Ambiguity in Transition-based Chinese
+               Dependency Parsing},
+  journal   = {CoRR},
+  volume    = {abs/1711.10163},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1711.10163},
+  archivePrefix = {arXiv},
+  eprint    = {1711.10163}
+}
+```
